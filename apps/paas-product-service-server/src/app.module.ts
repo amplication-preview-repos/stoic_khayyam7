@@ -5,6 +5,9 @@ import { TdsModule } from "./tds/tds.module";
 import { GstModule } from "./gst/gst.module";
 import { LegalComplianceModule } from "./legalCompliance/legalCompliance.module";
 import { UserModule } from "./user/user.module";
+import { AiPoweredGstModule } from "./aipoweredgst/aipoweredgst.module";
+import { AiPoweredIncomeTaxModule } from "./aipoweredincometax/aipoweredincometax.module";
+import { AiPoweredTdsModule } from "./aipoweredtds/aipoweredtds.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -23,6 +26,9 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     GstModule,
     LegalComplianceModule,
     UserModule,
+    AiPoweredGstModule,
+    AiPoweredIncomeTaxModule,
+    AiPoweredTdsModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
